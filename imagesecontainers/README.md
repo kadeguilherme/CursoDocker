@@ -50,7 +50,11 @@
   alterando nome da imagem
   # docker -tag [nome da imagem]:[novo nome da imagem]
 ```
-
+### ` Docker stats ` 
+ 
+``` markdown
+  # Docker stats
+```
 
 ### ` Docker build` 
  
