@@ -29,6 +29,14 @@
   # docker -rm [ID] ou [NOME] [OPTIONS]
   -f ⟶ Força a remove o conatainer, caso esteja rodando
 ```
+
+### ` Docker run --rm [container]` 
+ 
+``` markdown
+  # Docker run --rm [container]
+```
+
+
 ### ` Docker tag` 
  
 ``` markdown
