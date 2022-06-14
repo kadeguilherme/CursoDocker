@@ -29,6 +29,15 @@
   # docker -rm [ID] ou [NOME] [OPTIONS]
   -f ⟶ Força a remove o conatainer, caso esteja rodando
 ```
+### ` Docker tag` 
+ 
+``` markdown
+  # docker -tag [nome da imagem]
+  
+  alterando nome da imagem
+  # docker -tag [nome da imagem]:[novo nome da imagem]
+```
+
 
 ### ` Docker build` 
  
