@@ -29,3 +29,9 @@
   # docker -rm [ID] ou [NOME] [OPTIONS]
   -f ⟶ Força a remove o conatainer, caso esteja rodando
 ```
+
+### ` Docker build` 
+ 
+``` markdown
+  # docker -build [pasta do dockefile]
+```
