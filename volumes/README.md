@@ -12,7 +12,7 @@ A principal função do volume é persistentir os Dados. Sem os volumes apos cri
   Podemos ver todos os volumes do ambiente
 ```
 
-## Volume Anonymous
+  ## Volume Anonymous
   
   Para você ter o nubank clone no seu celular digite o seguinte comando no seu terminal
   
@@ -26,4 +26,10 @@ A principal função do volume é persistentir os Dados. Sem os volumes apos cri
    Criando Volume Named
   ```
   docker run -v nomedovolume:/data
+```
+
+  ## Volume Bind Mounts
+   Criando Volume Bind Mounts
+  ```
+  docker run -v /dir/data:/data
 ```
