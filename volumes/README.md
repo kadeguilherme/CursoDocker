@@ -16,8 +16,14 @@ A principal função do volume é persistentir os Dados. Sem os volumes apos cri
   
   Para você ter o nubank clone no seu celular digite o seguinte comando no seu terminal
   
-  1. Criando Volume anonymous
+  Criando Volume Anonymous
   ```
   docker run -v /data
 ```
   Onde **/Data** será o diretorio que contém o volume anonimo
+  
+  ## Volume Named
+   Criando Volume Named
+  ```
+  docker run -v nomedovolume:/data
+```
