@@ -1,4 +1,5 @@
 # Docker Volumes
+A principal função do volume é persistentir os Dados. Sem os volumes apos criamos um container com algum imagem e remove o container, perderemos todos os aqruivos.
 
   # Tipos de volumes
    - Anonymous : Diretorios criados pela **flag -v** porém com um nome aleatorio.
