@@ -33,3 +33,9 @@ A principal função do volume é persistentir os Dados. Sem os volumes apos cri
   ```
   docker run -v /dir/data:/data
 ```
+
+  ## Criando um Volume 
+   Podemos criar criar um volume manualmente 
+  ```
+  docker volume create <none>
+```
