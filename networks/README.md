@@ -1,3 +1,25 @@
-# CursoDocker
-Repositório do curso de Docker 
+# Docker Network
+Uma forma de gerenciar conexeão do Docker com outras plataformas ou até entre containers
 
+  # Tipos de Drives (Rede)
+   - Bridge : Default. Utilizado quando containers precisam se conectar
+   - host : Permite a conexao entre um container a maquia que está hosteando o Docker
+   - Macvlan : Permite conexao a um container por um MAC address
+   - none : Remove todas conexões de rede de um container
+   - Plugins : Permite extensões de terceiros para criar outras redes
+
+## Listando Network usamos:
+ ```
+  docker network ls
+  Podemos ver todos os networks do ambiente
+```
+
+  ## Criando Network
+  ```
+  docker network create <nome>
+```
+  
+  ## Removendo Network
+  ```
+  docker network rm <nome>
+```
