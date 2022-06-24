@@ -24,6 +24,11 @@ Uma forma de gerenciar conexeão do Docker com outras plataformas ou até entre 
   docker network disconnnect <rede> <container>
 ```
 
+  ## Inspecionando Redes
+  ```
+  docker inspect <nome>
+```
+  
   ## Criando Network
   ```
   docker network create <nome>
