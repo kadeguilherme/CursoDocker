@@ -19,6 +19,11 @@ Uma forma de gerenciar conexeão do Docker com outras plataformas ou até entre 
   docker network <rede> <container>
 ```
 
+  ## Desconectando Container
+  ```
+  docker network disconnnect <rede> <container>
+```
+
   ## Criando Network
   ```
   docker network create <nome>
