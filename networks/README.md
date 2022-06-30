@@ -14,6 +14,21 @@ Uma forma de gerenciar conexeão do Docker com outras plataformas ou até entre 
   Podemos ver todos os networks do ambiente
 ```
 
+  ## Conectando Container
+  ```
+  docker network <rede> <container>
+```
+
+  ## Desconectando Container
+  ```
+  docker network disconnnect <rede> <container>
+```
+
+  ## Inspecionando Redes
+  ```
+  docker inspect <nome>
+```
+  
   ## Criando Network
   ```
   docker network create <nome>
