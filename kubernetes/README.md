@@ -45,3 +45,35 @@ PORT = A porta para o servico ser consumindo
 ```
 minikube service <NOME>
 ```
+
+## Verificando serviços
+
+```
+kubectl get services
+```
+```
+kubectl describe services/<NOME>
+```
+## Replicando aplicacao
+```
+kubectl scale deployment/<NOME> --replicas=<NUMERO>
+```
+
+## Atualizacao de imagem
+Após subir a nova imagem no Hub 
+Usamos o comando para atulizar os pods
+```
+kubectl set image deployment/<NOME> <NOME_CONTAINER>=<NOVA_IMAGEM>
+```
+
+## Fazendo RollBack
+
+Com o seguinte comando verificamos uma alteracao
+```
+kubectl rollout status deployment/<NOME>
+```
+Para volta a versão anterior
+```
+kubectl rollout undo deployment/<NOME>
+```
+
