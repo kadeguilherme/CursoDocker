@@ -22,3 +22,13 @@ ou
 $ minikube dashboard --url
 Obter apenas a URL
 ```
+# Checando Pods
+Veriticar os Pods:
+```
+kubectl get pods
+```
+
+Verificar os Pods com mais detalhes 
+```
+kubectl describe pods
+```
