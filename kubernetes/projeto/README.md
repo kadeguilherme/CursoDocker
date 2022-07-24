@@ -1,4 +1,4 @@
- <h1> Criando Deployment</h1>
+ # Criando Deployment
   ```
   kubectl create deployment [NOME] --image=[IMAGEM]
   ```
